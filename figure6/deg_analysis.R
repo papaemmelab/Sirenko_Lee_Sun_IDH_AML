@@ -35,7 +35,7 @@ DEGTest <- function(seurat_object, stage_col, celltype_col, celltypes,  comparis
     deg_list[[i]] <- deg_single_celltype
   }
   names(deg_list) <- celltypes
-  return(deg_list)
+  return(deg_list) 
 }
 
 
